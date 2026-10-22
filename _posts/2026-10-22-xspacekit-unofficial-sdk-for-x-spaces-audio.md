@@ -3,6 +3,9 @@ title: "xspacekit: an unofficial SDK for X Spaces audio"
 date: 2026-10-22 09:00:00 +0530
 categories: [research, networking]
 tags: [x-spaces, webrtc, janus, reverse-engineering, sdk, opus, hls]
+image:
+  path: https://i.postimg.cc/mZmBfpzy/Gemini-Generated-Image-n43cr0n43cr0n43c-watermark-removed.png
+  alt: "X Spaces"
 description: "A protocol walkthrough + SDK architecture plan for X Spaces audio: guest auth, space lifecycle, chat events, and WebRTC/Janus signaling over the HTTP gateway."
 ---
 
