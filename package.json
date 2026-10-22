@@ -1,0 +1,21 @@
+{
+  "name": "xspacekit",
+  "version": "0.1.0",
+  "description": "Unofficial SDK for X Spaces audio (research / reverse engineering)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json -w",
+    "test": "node --test",
+    "lint": "node ./node_modules/.bin/eslint ."
+  },
+  "dependencies": {
+    "undici": "^6.20.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}
